@@ -63,7 +63,7 @@ Tests were repeated 3 times and average time and memory usage were recorded.
 
 Results:
 
-<img src="benchmark.jpg" alt="" width="700" align="center" />
+<img src="benchmark.jpg" alt="" width="850" align="center" />
 
 Notes:
 
