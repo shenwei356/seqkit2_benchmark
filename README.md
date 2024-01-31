@@ -3,8 +3,8 @@
 ## Tools
 
 - [seqtk](https://github.com/lh3/seqtk/), version [v1.4](https://github.com/lh3/seqtk/releases/tag/v1.4).
-- [seqkfu](https://github.com/telatin/seqfu2), version [v1.20.0](https://github.com/telatin/seqfu2/releases/tag/v1.20.0), and [v0.3.1.1](https://github.com/shenwei356/seqkit/releases/tag/v0.3.1.1).
-- [seqkit](https://github.com/shenwei356/seqkit), version [v2.6.1](https://github.com/shenwei356/seqkit/releases/tag/v2.6.1).
+- [seqfu](https://github.com/telatin/seqfu2), version [v1.20.0](https://github.com/telatin/seqfu2/releases/tag/v1.20.0).
+- [seqkit](https://github.com/shenwei356/seqkit), version [v2.6.1](https://github.com/shenwei356/seqkit/releases/tag/v2.6.1) and [v0.3.1.1](https://github.com/shenwei356/seqkit/releases/tag/v0.3.1.1).
 
 Notes:
 
@@ -21,7 +21,7 @@ Datasets:
 
 - Human genome. Human T2T genomes [T2T-CHM13v2.0_genomic](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/009/914/755/GCA_009914755.4_T2T-CHM13v2.0/GCA_009914755.4_T2T-CHM13v2.0_genomic.fna.gz).
 - Bacteria genomes. Food associated representative sequences from [proGenomes 3](https://progenomes.embl.de/data/habitats/representatives.food_associated.contigs.fasta.gz). (not used due to results in bacteria genomes and long reads are similar.)
-- ONT reads. Metagenomic reads from a mock community: [ERR5396170](ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR539/000/ERR5396170/ERR5396170.fastq.gz), it is down-sampled for keeping 10 percents reads with `seqkit sample -p 0.1`.
+- ONT reads. Metagenomic reads from a mock community: [ERR5396170](http://ftp.sra.ebi.ac.uk/vol1/fastq/ERR539/000/ERR5396170/ERR5396170.fastq.gz), it is down-sampled for keeping 10 percents reads with `seqkit sample -p 0.1`.
 - Illumina reads. Metagenomic reads from a mock community: [SRR8359173](https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR835/003/SRR8359173/). Pair-end reads are merged.
 
 Summary:
@@ -69,7 +69,7 @@ Notes:
 
 - `seqkit` uses 4 threads by default.
 - `seqkit_j1` uses 1 thread.
-- `seqkit_old` is v0.3.1.1.
+- `seqkit_old` refers to SeqKit v0.3.1.1.
 - `seqfu` is single-threaded.
 - `seqtk` is single-threaded.
 - `seqtk+pigz`: `seqtk` pipes data to the multithreaded `pigz` which uses 4 threads here.
