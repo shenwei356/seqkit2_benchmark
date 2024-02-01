@@ -1,271 +1,271 @@
 test	dataset	app	time	mem
-Sequence summary	human_genome.fasta	seqfu	4.76	726632
-Sequence summary	human_genome.fasta	seqfu	5.27	726916
-Sequence summary	human_genome.fasta	seqfu	6.16	728236
-Sequence summary	human_genome.fasta	seqkit	6.39	1189152
-Sequence summary	human_genome.fasta	seqkit	6.13	1188432
-Sequence summary	human_genome.fasta	seqkit	4.86	1186532
-Sequence summary	human_genome.fasta	seqkit_j1	5.21	1190120
-Sequence summary	human_genome.fasta	seqkit_j1	6.25	1188856
-Sequence summary	human_genome.fasta	seqkit_j1	6.27	1189004
-Sequence summary	human_genome.fasta	seqkit_old	6.96	788900
-Sequence summary	human_genome.fasta	seqkit_old	6.60	788348
-Sequence summary	human_genome.fasta	seqkit_old	5.90	788372
-Sequence summary	human_genome.fasta	seqtk	2.91	246468
-Sequence summary	human_genome.fasta	seqtk	3.94	245428
-Sequence summary	human_genome.fasta	seqtk	3.59	246204
-Sequence summary	human_genome.fasta.gz	seqfu	25.19	727216
-Sequence summary	human_genome.fasta.gz	seqfu	25.33	726444
-Sequence summary	human_genome.fasta.gz	seqfu	26.47	727920
-Sequence summary	human_genome.fasta.gz	seqkit	30.42	1193876
-Sequence summary	human_genome.fasta.gz	seqkit	30.52	1194412
-Sequence summary	human_genome.fasta.gz	seqkit	31.33	1192288
-Sequence summary	human_genome.fasta.gz	seqkit_j1	31.55	1193240
-Sequence summary	human_genome.fasta.gz	seqkit_j1	31.46	1194232
-Sequence summary	human_genome.fasta.gz	seqkit_j1	31.20	1194468
-Sequence summary	human_genome.fasta.gz	seqkit_old	34.71	788264
-Sequence summary	human_genome.fasta.gz	seqkit_old	34.69	788864
-Sequence summary	human_genome.fasta.gz	seqkit_old	36.46	789032
-Sequence summary	human_genome.fasta.gz	seqtk	23.47	245440
-Sequence summary	human_genome.fasta.gz	seqtk	23.93	245648
-Sequence summary	human_genome.fasta.gz	seqtk	24.18	245056
-Sequence summary	long_reads.fastq	seqfu	2.08	5324
-Sequence summary	long_reads.fastq	seqfu	2.20	5420
-Sequence summary	long_reads.fastq	seqfu	1.96	5264
-Sequence summary	long_reads.fastq	seqkit	1.62	25340
-Sequence summary	long_reads.fastq	seqkit	1.85	24940
-Sequence summary	long_reads.fastq	seqkit	1.73	33068
-Sequence summary	long_reads.fastq	seqkit_j1	1.62	33836
-Sequence summary	long_reads.fastq	seqkit_j1	1.96	33460
-Sequence summary	long_reads.fastq	seqkit_j1	1.85	33136
-Sequence summary	long_reads.fastq	seqkit_old	1.97	15188
-Sequence summary	long_reads.fastq	seqkit_old	2.08	13108
-Sequence summary	long_reads.fastq	seqkit_old	2.08	12924
-Sequence summary	long_reads.fastq	seqtk	1.50	2372
-Sequence summary	long_reads.fastq	seqtk	1.73	2280
-Sequence summary	long_reads.fastq	seqtk	1.50	2340
-Sequence summary	long_reads.fastq.gz	seqfu	16.40	5152
-Sequence summary	long_reads.fastq.gz	seqfu	16.39	5416
-Sequence summary	long_reads.fastq.gz	seqfu	16.41	5556
-Sequence summary	long_reads.fastq.gz	seqkit	18.13	30412
-Sequence summary	long_reads.fastq.gz	seqkit	18.12	31428
-Sequence summary	long_reads.fastq.gz	seqkit	18.23	29588
-Sequence summary	long_reads.fastq.gz	seqkit_j1	18.72	31052
-Sequence summary	long_reads.fastq.gz	seqkit_j1	18.82	30764
-Sequence summary	long_reads.fastq.gz	seqkit_j1	18.70	30264
-Sequence summary	long_reads.fastq.gz	seqkit_old	27.26	15888
-Sequence summary	long_reads.fastq.gz	seqkit_old	27.22	17884
-Sequence summary	long_reads.fastq.gz	seqkit_old	27.23	15964
-Sequence summary	long_reads.fastq.gz	seqtk	15.85	2352
-Sequence summary	long_reads.fastq.gz	seqtk	15.93	2388
-Sequence summary	long_reads.fastq.gz	seqtk	15.83	2312
-Sequence summary	short_reads.fastq	seqfu	3.70	2220
-Sequence summary	short_reads.fastq	seqfu	3.69	2224
-Sequence summary	short_reads.fastq	seqfu	3.93	2912
-Sequence summary	short_reads.fastq	seqkit	2.89	33460
-Sequence summary	short_reads.fastq	seqkit	2.77	33056
-Sequence summary	short_reads.fastq	seqkit	2.66	24688
-Sequence summary	short_reads.fastq	seqkit_j1	2.89	31308
-Sequence summary	short_reads.fastq	seqkit_j1	2.67	31140
-Sequence summary	short_reads.fastq	seqkit_j1	2.66	22864
-Sequence summary	short_reads.fastq	seqkit_old	5.56	16144
-Sequence summary	short_reads.fastq	seqkit_old	5.55	16124
-Sequence summary	short_reads.fastq	seqkit_old	5.44	14224
-Sequence summary	short_reads.fastq	seqtk	2.31	1168
-Sequence summary	short_reads.fastq	seqtk	2.32	1164
-Sequence summary	short_reads.fastq	seqtk	2.31	1188
-Sequence summary	short_reads.fastq.gz	seqfu	18.82	2004
-Sequence summary	short_reads.fastq.gz	seqfu	18.94	2084
-Sequence summary	short_reads.fastq.gz	seqfu	18.82	1976
-Sequence summary	short_reads.fastq.gz	seqkit	18.11	29132
-Sequence summary	short_reads.fastq.gz	seqkit	18.11	29936
-Sequence summary	short_reads.fastq.gz	seqkit	18.12	29356
-Sequence summary	short_reads.fastq.gz	seqkit_j1	19.85	29856
-Sequence summary	short_reads.fastq.gz	seqkit_j1	19.99	29392
-Sequence summary	short_reads.fastq.gz	seqkit_j1	19.87	29904
-Sequence summary	short_reads.fastq.gz	seqkit_old	24.55	14404
-Sequence summary	short_reads.fastq.gz	seqkit_old	24.46	16416
-Sequence summary	short_reads.fastq.gz	seqkit_old	24.45	14380
-Sequence summary	short_reads.fastq.gz	seqtk	17.43	1220
-Sequence summary	short_reads.fastq.gz	seqtk	17.43	1244
-Sequence summary	short_reads.fastq.gz	seqtk	17.43	1144
-FASTA/Q reading and writing	human_genome.fasta	seqfu	12.00	808480
-FASTA/Q reading and writing	human_genome.fasta	seqfu	12.06	808328
-FASTA/Q reading and writing	human_genome.fasta	seqfu	12.79	808760
-FASTA/Q reading and writing	human_genome.fasta	seqkit	9.09	1188500
-FASTA/Q reading and writing	human_genome.fasta	seqkit	9.13	1187624
-FASTA/Q reading and writing	human_genome.fasta	seqkit	8.12	1189072
-FASTA/Q reading and writing	human_genome.fasta	seqkit_j1	9.22	1187992
-FASTA/Q reading and writing	human_genome.fasta	seqkit_j1	7.54	1187976
-FASTA/Q reading and writing	human_genome.fasta	seqkit_j1	7.84	1189824
-FASTA/Q reading and writing	human_genome.fasta	seqkit_old	8.22	790368
-FASTA/Q reading and writing	human_genome.fasta	seqkit_old	8.28	788396
-FASTA/Q reading and writing	human_genome.fasta	seqkit_old	9.11	788268
-FASTA/Q reading and writing	human_genome.fasta	seqtk	5.77	245012
-FASTA/Q reading and writing	human_genome.fasta	seqtk	5.65	245480
-FASTA/Q reading and writing	human_genome.fasta	seqtk	5.73	245268
-FASTA/Q reading and writing	human_genome.fasta.gz	seqfu+pigz	269.83	808460
-FASTA/Q reading and writing	human_genome.fasta.gz	seqfu+pigz	269.73	808864
-FASTA/Q reading and writing	human_genome.fasta.gz	seqfu+pigz	269.70	808300
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit	46.55	1194172
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit	46.29	1194392
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit	46.10	1194376
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit_j1	90.09	1194288
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit_j1	89.44	1194188
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit_j1	89.22	1194336
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit_old	1199.03	791872
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit_old	1198.88	789760
-FASTA/Q reading and writing	human_genome.fasta.gz	seqkit_old	1199.13	789716
-FASTA/Q reading and writing	human_genome.fasta.gz	seqtk+pigz	263.74	245708
-FASTA/Q reading and writing	human_genome.fasta.gz	seqtk+pigz	263.99	246048
-FASTA/Q reading and writing	human_genome.fasta.gz	seqtk+pigz	262.99	245812
-FASTA/Q reading and writing	long_reads.fastq	seqfu	12.59	5952
-FASTA/Q reading and writing	long_reads.fastq	seqfu	12.25	6068
-FASTA/Q reading and writing	long_reads.fastq	seqfu	12.31	5904
-FASTA/Q reading and writing	long_reads.fastq	seqkit	4.71	24968
-FASTA/Q reading and writing	long_reads.fastq	seqkit	4.72	23528
-FASTA/Q reading and writing	long_reads.fastq	seqkit	4.50	24640
-FASTA/Q reading and writing	long_reads.fastq	seqkit_j1	4.56	24716
-FASTA/Q reading and writing	long_reads.fastq	seqkit_j1	4.76	25028
-FASTA/Q reading and writing	long_reads.fastq	seqkit_j1	5.30	23104
-FASTA/Q reading and writing	long_reads.fastq	seqkit_old	6.13	13364
-FASTA/Q reading and writing	long_reads.fastq	seqkit_old	5.74	13376
-FASTA/Q reading and writing	long_reads.fastq	seqkit_old	5.56	15432
-FASTA/Q reading and writing	long_reads.fastq	seqtk	5.27	2496
-FASTA/Q reading and writing	long_reads.fastq	seqtk	4.81	2316
-FASTA/Q reading and writing	long_reads.fastq	seqtk	4.78	2316
-FASTA/Q reading and writing	long_reads.fastq.gz	seqfu+pigz	162.76	5896
-FASTA/Q reading and writing	long_reads.fastq.gz	seqfu+pigz	162.77	6048
-FASTA/Q reading and writing	long_reads.fastq.gz	seqfu+pigz	162.78	5964
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit	18.52	48788
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit	18.50	50616
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit	18.41	50508
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit_j1	61.25	39168
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit_j1	60.88	40616
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit_j1	60.64	40348
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit_old	676.56	19520
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit_old	677.30	21448
-FASTA/Q reading and writing	long_reads.fastq.gz	seqkit_old	676.55	19876
-FASTA/Q reading and writing	long_reads.fastq.gz	seqtk+pigz	162.68	2532
-FASTA/Q reading and writing	long_reads.fastq.gz	seqtk+pigz	162.76	2400
-FASTA/Q reading and writing	long_reads.fastq.gz	seqtk+pigz	162.59	2496
-FASTA/Q reading and writing	short_reads.fastq	seqfu	27.88	3012
-FASTA/Q reading and writing	short_reads.fastq	seqfu	28.12	3100
-FASTA/Q reading and writing	short_reads.fastq	seqfu	28.22	3076
-FASTA/Q reading and writing	short_reads.fastq	seqkit	5.45	31660
-FASTA/Q reading and writing	short_reads.fastq	seqkit	5.38	25128
-FASTA/Q reading and writing	short_reads.fastq	seqkit	5.48	31088
-FASTA/Q reading and writing	short_reads.fastq	seqkit_j1	5.22	33252
-FASTA/Q reading and writing	short_reads.fastq	seqkit_j1	5.51	33016
-FASTA/Q reading and writing	short_reads.fastq	seqkit_j1	5.32	32988
-FASTA/Q reading and writing	short_reads.fastq	seqkit_old	8.96	13232
-FASTA/Q reading and writing	short_reads.fastq	seqkit_old	9.11	15164
-FASTA/Q reading and writing	short_reads.fastq	seqkit_old	9.05	15080
-FASTA/Q reading and writing	short_reads.fastq	seqtk	6.05	1260
-FASTA/Q reading and writing	short_reads.fastq	seqtk	6.24	1148
-FASTA/Q reading and writing	short_reads.fastq	seqtk	6.11	1220
-FASTA/Q reading and writing	short_reads.fastq.gz	seqfu+pigz	137.13	3128
-FASTA/Q reading and writing	short_reads.fastq.gz	seqfu+pigz	137.16	2984
-FASTA/Q reading and writing	short_reads.fastq.gz	seqfu+pigz	137.12	3180
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit	18.51	48840
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit	18.75	55264
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit	18.40	55524
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit_j1	65.76	40016
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit_j1	65.59	40628
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit_j1	65.90	40828
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit_old	547.18	19528
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit_old	545.42	19824
-FASTA/Q reading and writing	short_reads.fastq.gz	seqkit_old	547.09	21668
-FASTA/Q reading and writing	short_reads.fastq.gz	seqtk+pigz	137.00	1260
-FASTA/Q reading and writing	short_reads.fastq.gz	seqtk+pigz	137.31	1144
-FASTA/Q reading and writing	short_reads.fastq.gz	seqtk+pigz	137.19	2100
-Reverse complement sequence	human_genome.fasta	seqfu	97.29	2366136
-Reverse complement sequence	human_genome.fasta	seqfu	94.04	2364960
-Reverse complement sequence	human_genome.fasta	seqfu	93.78	2366548
-Reverse complement sequence	human_genome.fasta	seqkit	16.60	1189396
-Reverse complement sequence	human_genome.fasta	seqkit	16.92	1189604
-Reverse complement sequence	human_genome.fasta	seqkit	16.99	1189732
-Reverse complement sequence	human_genome.fasta	seqkit_j1	30.07	1187096
-Reverse complement sequence	human_genome.fasta	seqkit_j1	30.79	1189032
-Reverse complement sequence	human_genome.fasta	seqkit_j1	28.14	1189764
-Reverse complement sequence	human_genome.fasta	seqkit_old	16.62	790412
-Reverse complement sequence	human_genome.fasta	seqkit_old	13.57	791044
-Reverse complement sequence	human_genome.fasta	seqkit_old	16.85	791328
-Reverse complement sequence	human_genome.fasta	seqtk	10.19	244712
-Reverse complement sequence	human_genome.fasta	seqtk	9.96	245972
-Reverse complement sequence	human_genome.fasta	seqtk	9.98	246712
-Reverse complement sequence	human_genome.fasta.gz	seqfu+pigz	355.28	2366632
-Reverse complement sequence	human_genome.fasta.gz	seqfu+pigz	357.36	2366484
-Reverse complement sequence	human_genome.fasta.gz	seqfu+pigz	357.06	2369568
-Reverse complement sequence	human_genome.fasta.gz	seqkit	53.87	1194572
-Reverse complement sequence	human_genome.fasta.gz	seqkit	53.95	1194416
-Reverse complement sequence	human_genome.fasta.gz	seqkit	53.68	1194188
-Reverse complement sequence	human_genome.fasta.gz	seqkit_j1	109.80	1194524
-Reverse complement sequence	human_genome.fasta.gz	seqkit_j1	109.82	1194508
-Reverse complement sequence	human_genome.fasta.gz	seqkit_j1	110.26	1192584
-Reverse complement sequence	human_genome.fasta.gz	seqkit_old	1204.89	791816
-Reverse complement sequence	human_genome.fasta.gz	seqkit_old	1204.66	792080
-Reverse complement sequence	human_genome.fasta.gz	seqkit_old	1204.70	789812
-Reverse complement sequence	human_genome.fasta.gz	seqtk+pigz	267.64	244840
-Reverse complement sequence	human_genome.fasta.gz	seqtk+pigz	267.00	244760
-Reverse complement sequence	human_genome.fasta.gz	seqtk+pigz	267.94	244760
-Reverse complement sequence	long_reads.fastq	seqfu	51.71	7132
-Reverse complement sequence	long_reads.fastq	seqfu	51.59	6884
-Reverse complement sequence	long_reads.fastq	seqfu	51.65	6912
-Reverse complement sequence	long_reads.fastq	seqkit	19.14	66696
-Reverse complement sequence	long_reads.fastq	seqkit	19.79	65952
-Reverse complement sequence	long_reads.fastq	seqkit	19.57	57928
-Reverse complement sequence	long_reads.fastq	seqkit_j1	17.54	54548
-Reverse complement sequence	long_reads.fastq	seqkit_j1	17.01	55128
-Reverse complement sequence	long_reads.fastq	seqkit_j1	17.15	55740
-Reverse complement sequence	long_reads.fastq	seqkit_old	26.86	17856
-Reverse complement sequence	long_reads.fastq	seqkit_old	26.30	13652
-Reverse complement sequence	long_reads.fastq	seqkit_old	26.07	14624
-Reverse complement sequence	long_reads.fastq	seqtk	8.99	2348
-Reverse complement sequence	long_reads.fastq	seqtk	9.03	2372
-Reverse complement sequence	long_reads.fastq	seqtk	8.52	2312
-Reverse complement sequence	long_reads.fastq.gz	seqfu+pigz	162.71	7136
-Reverse complement sequence	long_reads.fastq.gz	seqfu+pigz	162.75	6796
-Reverse complement sequence	long_reads.fastq.gz	seqfu+pigz	162.71	6940
-Reverse complement sequence	long_reads.fastq.gz	seqkit	20.37	99892
-Reverse complement sequence	long_reads.fastq.gz	seqkit	20.24	102592
-Reverse complement sequence	long_reads.fastq.gz	seqkit	20.16	105044
-Reverse complement sequence	long_reads.fastq.gz	seqkit_j1	73.62	87132
-Reverse complement sequence	long_reads.fastq.gz	seqkit_j1	73.90	84384
-Reverse complement sequence	long_reads.fastq.gz	seqkit_j1	73.98	85616
-Reverse complement sequence	long_reads.fastq.gz	seqkit_old	706.88	21668
-Reverse complement sequence	long_reads.fastq.gz	seqkit_old	705.90	21476
-Reverse complement sequence	long_reads.fastq.gz	seqkit_old	707.94	21460
-Reverse complement sequence	long_reads.fastq.gz	seqtk+pigz	162.62	2396
-Reverse complement sequence	long_reads.fastq.gz	seqtk+pigz	162.83	2436
-Reverse complement sequence	long_reads.fastq.gz	seqtk+pigz	162.76	2420
-Reverse complement sequence	short_reads.fastq	seqfu	61.55	3084
-Reverse complement sequence	short_reads.fastq	seqfu	62.78	1960
-Reverse complement sequence	short_reads.fastq	seqfu	61.52	2864
-Reverse complement sequence	short_reads.fastq	seqkit	14.01	23684
-Reverse complement sequence	short_reads.fastq	seqkit	13.51	32828
-Reverse complement sequence	short_reads.fastq	seqkit	13.97	32168
-Reverse complement sequence	short_reads.fastq	seqkit_j1	14.11	32160
-Reverse complement sequence	short_reads.fastq	seqkit_j1	14.90	24708
-Reverse complement sequence	short_reads.fastq	seqkit_j1	13.85	24664
-Reverse complement sequence	short_reads.fastq	seqkit_old	34.28	15156
-Reverse complement sequence	short_reads.fastq	seqkit_old	33.64	13244
-Reverse complement sequence	short_reads.fastq	seqkit_old	33.89	13208
-Reverse complement sequence	short_reads.fastq	seqtk	9.31	1236
-Reverse complement sequence	short_reads.fastq	seqtk	8.86	1140
-Reverse complement sequence	short_reads.fastq	seqtk	8.78	1236
-Reverse complement sequence	short_reads.fastq.gz	seqfu+pigz	138.94	3232
-Reverse complement sequence	short_reads.fastq.gz	seqfu+pigz	138.85	3188
-Reverse complement sequence	short_reads.fastq.gz	seqfu+pigz	139.03	3024
-Reverse complement sequence	short_reads.fastq.gz	seqkit	19.47	55632
-Reverse complement sequence	short_reads.fastq.gz	seqkit	19.44	54844
-Reverse complement sequence	short_reads.fastq.gz	seqkit	19.56	59056
-Reverse complement sequence	short_reads.fastq.gz	seqkit_j1	73.83	40780
-Reverse complement sequence	short_reads.fastq.gz	seqkit_j1	74.28	39412
-Reverse complement sequence	short_reads.fastq.gz	seqkit_j1	74.02	40216
-Reverse complement sequence	short_reads.fastq.gz	seqkit_old	572.24	19804
-Reverse complement sequence	short_reads.fastq.gz	seqkit_old	570.44	21632
-Reverse complement sequence	short_reads.fastq.gz	seqkit_old	570.09	19604
-Reverse complement sequence	short_reads.fastq.gz	seqtk+pigz	138.83	2048
-Reverse complement sequence	short_reads.fastq.gz	seqtk+pigz	138.79	1236
-Reverse complement sequence	short_reads.fastq.gz	seqtk+pigz	138.81	1252
+Sequence summary	human_genome (FASTA)	SeqFu	1.87	726380
+Sequence summary	human_genome (FASTA)	SeqFu	2.17	726440
+Sequence summary	human_genome (FASTA)	SeqFu	1.86	727000
+Sequence summary	human_genome (FASTA)	SeqKit	2.40	1187904
+Sequence summary	human_genome (FASTA)	SeqKit	1.98	1184944
+Sequence summary	human_genome (FASTA)	SeqKit	2.27	1186476
+Sequence summary	human_genome (FASTA)	SeqKit_j1	1.98	1186504
+Sequence summary	human_genome (FASTA)	SeqKit_j1	1.95	1188232
+Sequence summary	human_genome (FASTA)	SeqKit_j1	1.98	1186356
+Sequence summary	human_genome (FASTA)	SeqKit_old	2.88	790320
+Sequence summary	human_genome (FASTA)	SeqKit_old	1.98	790512
+Sequence summary	human_genome (FASTA)	SeqKit_old	1.94	788644
+Sequence summary	human_genome (FASTA)	Seqtk	1.32	244908
+Sequence summary	human_genome (FASTA)	Seqtk	1.30	245456
+Sequence summary	human_genome (FASTA)	Seqtk	1.32	245320
+Sequence summary	human_genome (FASTA).gz	SeqFu	12.49	727528
+Sequence summary	human_genome (FASTA).gz	SeqFu	12.70	727532
+Sequence summary	human_genome (FASTA).gz	SeqFu	12.71	726864
+Sequence summary	human_genome (FASTA).gz	SeqKit	15.89	1192400
+Sequence summary	human_genome (FASTA).gz	SeqKit	15.96	1189992
+Sequence summary	human_genome (FASTA).gz	SeqKit	16.04	1191472
+Sequence summary	human_genome (FASTA).gz	SeqKit_j1	16.89	1192012
+Sequence summary	human_genome (FASTA).gz	SeqKit_j1	16.79	1191840
+Sequence summary	human_genome (FASTA).gz	SeqKit_j1	16.90	1190848
+Sequence summary	human_genome (FASTA).gz	SeqKit_old	17.71	790356
+Sequence summary	human_genome (FASTA).gz	SeqKit_old	17.72	789956
+Sequence summary	human_genome (FASTA).gz	SeqKit_old	17.82	788192
+Sequence summary	human_genome (FASTA).gz	Seqtk	11.83	245480
+Sequence summary	human_genome (FASTA).gz	Seqtk	11.84	246228
+Sequence summary	human_genome (FASTA).gz	Seqtk	12.05	246400
+Sequence summary	long_reads (FASTQ)	SeqFu	2.39	5692
+Sequence summary	long_reads (FASTQ)	SeqFu	2.50	5468
+Sequence summary	long_reads (FASTQ)	SeqFu	2.38	5864
+Sequence summary	long_reads (FASTQ)	SeqKit	2.19	22236
+Sequence summary	long_reads (FASTQ)	SeqKit	2.18	35648
+Sequence summary	long_reads (FASTQ)	SeqKit	2.18	32872
+Sequence summary	long_reads (FASTQ)	SeqKit_j1	2.19	33816
+Sequence summary	long_reads (FASTQ)	SeqKit_j1	2.18	33148
+Sequence summary	long_reads (FASTQ)	SeqKit_j1	2.19	33416
+Sequence summary	long_reads (FASTQ)	SeqKit_old	2.85	13548
+Sequence summary	long_reads (FASTQ)	SeqKit_old	2.60	15408
+Sequence summary	long_reads (FASTQ)	SeqKit_old	2.63	13348
+Sequence summary	long_reads (FASTQ)	Seqtk	2.09	2336
+Sequence summary	long_reads (FASTQ)	Seqtk	2.08	2320
+Sequence summary	long_reads (FASTQ)	Seqtk	2.08	2288
+Sequence summary	long_reads (FASTQ).gz	SeqFu	18.29	5496
+Sequence summary	long_reads (FASTQ).gz	SeqFu	18.29	5460
+Sequence summary	long_reads (FASTQ).gz	SeqFu	18.27	5668
+Sequence summary	long_reads (FASTQ).gz	SeqKit	20.40	29316
+Sequence summary	long_reads (FASTQ).gz	SeqKit	20.32	29168
+Sequence summary	long_reads (FASTQ).gz	SeqKit	20.50	30500
+Sequence summary	long_reads (FASTQ).gz	SeqKit_j1	21.18	29996
+Sequence summary	long_reads (FASTQ).gz	SeqKit_j1	21.08	28520
+Sequence summary	long_reads (FASTQ).gz	SeqKit_j1	21.39	30060
+Sequence summary	long_reads (FASTQ).gz	SeqKit_old	30.94	15732
+Sequence summary	long_reads (FASTQ).gz	SeqKit_old	31.00	17204
+Sequence summary	long_reads (FASTQ).gz	SeqKit_old	30.90	17168
+Sequence summary	long_reads (FASTQ).gz	Seqtk	17.84	2276
+Sequence summary	long_reads (FASTQ).gz	Seqtk	17.85	2332
+Sequence summary	long_reads (FASTQ).gz	Seqtk	17.85	2324
+Sequence summary	short_reads (FASTQ)	SeqFu	1.73	1964
+Sequence summary	short_reads (FASTQ)	SeqFu	1.73	2024
+Sequence summary	short_reads (FASTQ)	SeqFu	1.74	1944
+Sequence summary	short_reads (FASTQ)	SeqKit	1.52	30080
+Sequence summary	short_reads (FASTQ)	SeqKit	1.42	31772
+Sequence summary	short_reads (FASTQ)	SeqKit	1.61	23792
+Sequence summary	short_reads (FASTQ)	SeqKit_j1	1.42	24508
+Sequence summary	short_reads (FASTQ)	SeqKit_j1	1.42	32108
+Sequence summary	short_reads (FASTQ)	SeqKit_j1	1.42	30448
+Sequence summary	short_reads (FASTQ)	SeqKit_old	2.83	13860
+Sequence summary	short_reads (FASTQ)	SeqKit_old	2.72	14036
+Sequence summary	short_reads (FASTQ)	SeqKit_old	2.71	16076
+Sequence summary	short_reads (FASTQ)	Seqtk	1.20	1248
+Sequence summary	short_reads (FASTQ)	Seqtk	1.20	1132
+Sequence summary	short_reads (FASTQ)	Seqtk	1.21	1248
+Sequence summary	short_reads (FASTQ).gz	SeqFu	9.36	2936
+Sequence summary	short_reads (FASTQ).gz	SeqFu	9.47	1912
+Sequence summary	short_reads (FASTQ).gz	SeqFu	9.35	1980
+Sequence summary	short_reads (FASTQ).gz	SeqKit	9.88	27644
+Sequence summary	short_reads (FASTQ).gz	SeqKit	9.88	27616
+Sequence summary	short_reads (FASTQ).gz	SeqKit	9.89	27912
+Sequence summary	short_reads (FASTQ).gz	SeqKit_j1	10.97	29508
+Sequence summary	short_reads (FASTQ).gz	SeqKit_j1	10.86	26792
+Sequence summary	short_reads (FASTQ).gz	SeqKit_j1	10.86	29800
+Sequence summary	short_reads (FASTQ).gz	SeqKit_old	13.32	17764
+Sequence summary	short_reads (FASTQ).gz	SeqKit_old	13.32	17268
+Sequence summary	short_reads (FASTQ).gz	SeqKit_old	13.23	15572
+Sequence summary	short_reads (FASTQ).gz	Seqtk	8.93	1220
+Sequence summary	short_reads (FASTQ).gz	Seqtk	8.93	1140
+Sequence summary	short_reads (FASTQ).gz	Seqtk	8.92	1248
+FASTA/Q reading and writing	human_genome (FASTA)	SeqFu	6.78	808228
+FASTA/Q reading and writing	human_genome (FASTA)	SeqFu	6.05	808096
+FASTA/Q reading and writing	human_genome (FASTA)	SeqFu	6.15	808160
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit	5.12	1186940
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit	5.17	1186612
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit	4.57	1186968
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit_j1	3.90	1186916
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit_j1	4.91	1188096
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit_j1	4.58	1188232
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit_old	5.54	788416
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit_old	4.66	788704
+FASTA/Q reading and writing	human_genome (FASTA)	SeqKit_old	3.75	790592
+FASTA/Q reading and writing	human_genome (FASTA)	Seqtk	3.59	245928
+FASTA/Q reading and writing	human_genome (FASTA)	Seqtk	4.33	244580
+FASTA/Q reading and writing	human_genome (FASTA)	Seqtk	3.44	245648
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqFu+pigz	140.38	926084
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqFu+pigz	139.90	925948
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqFu+pigz	140.30	925976
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit	24.53	1194236
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit	24.76	1194388
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit	24.48	1194408
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit_j1	47.15	1191828
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit_j1	47.43	1194152
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit_j1	47.72	1194144
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit_old	618.26	789684
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit_old	618.14	789588
+FASTA/Q reading and writing	human_genome (FASTA).gz	SeqKit_old	618.25	791828
+FASTA/Q reading and writing	human_genome (FASTA).gz	Seqtk+pigz	137.44	244776
+FASTA/Q reading and writing	human_genome (FASTA).gz	Seqtk+pigz	137.38	246608
+FASTA/Q reading and writing	human_genome (FASTA).gz	Seqtk+pigz	137.40	244784
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqFu	10.82	6512
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqFu	10.76	6656
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqFu	10.71	6376
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit	7.45	32084
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit	6.84	31428
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit	8.61	22740
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit_j1	7.87	24240
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit_j1	6.87	32312
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit_j1	9.05	24120
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit_old	8.91	15572
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit_old	8.75	13528
+FASTA/Q reading and writing	long_reads (FASTQ)	SeqKit_old	7.31	13704
+FASTA/Q reading and writing	long_reads (FASTQ)	Seqtk	7.98	2468
+FASTA/Q reading and writing	long_reads (FASTQ)	Seqtk	7.08	2352
+FASTA/Q reading and writing	long_reads (FASTQ)	Seqtk	7.41	2372
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqFu+pigz	171.96	6656
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqFu+pigz	172.10	6392
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqFu+pigz	171.82	6384
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit	20.44	50504
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit	20.98	49136
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit	21.12	49112
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit_j1	66.33	42680
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit_j1	65.73	41848
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit_j1	65.42	42168
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit_old	684.25	19524
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit_old	684.27	21456
+FASTA/Q reading and writing	long_reads (FASTQ).gz	SeqKit_old	685.67	19460
+FASTA/Q reading and writing	long_reads (FASTQ).gz	Seqtk+pigz	172.23	2680
+FASTA/Q reading and writing	long_reads (FASTQ).gz	Seqtk+pigz	172.49	2496
+FASTA/Q reading and writing	long_reads (FASTQ).gz	Seqtk+pigz	172.06	2464
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqFu	14.39	3032
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqFu	13.98	3116
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqFu	14.50	2944
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit	3.80	23696
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit	3.33	31392
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit	3.80	21396
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit_j1	3.87	31396
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit_j1	3.30	24212
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit_j1	3.73	30084
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit_old	4.71	15024
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit_old	4.84	14052
+FASTA/Q reading and writing	short_reads (FASTQ)	SeqKit_old	4.80	13068
+FASTA/Q reading and writing	short_reads (FASTQ)	Seqtk	3.92	1256
+FASTA/Q reading and writing	short_reads (FASTQ)	Seqtk	3.50	1164
+FASTA/Q reading and writing	short_reads (FASTQ)	Seqtk	3.76	1244
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqFu+pigz	72.14	3072
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqFu+pigz	72.34	3056
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqFu+pigz	72.26	3172
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit	10.45	47816
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit	10.14	47724
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit	10.45	47812
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit_j1	35.17	39832
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit_j1	35.53	41376
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit_j1	35.45	41340
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit_old	280.26	21628
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit_old	280.01	20600
+FASTA/Q reading and writing	short_reads (FASTQ).gz	SeqKit_old	279.98	21576
+FASTA/Q reading and writing	short_reads (FASTQ).gz	Seqtk+pigz	72.28	1148
+FASTA/Q reading and writing	short_reads (FASTQ).gz	Seqtk+pigz	71.98	1256
+FASTA/Q reading and writing	short_reads (FASTQ).gz	Seqtk+pigz	72.17	1148
+Reverse complement sequence	human_genome (FASTA)	SeqFu	43.00	2345044
+Reverse complement sequence	human_genome (FASTA)	SeqFu	41.95	2343380
+Reverse complement sequence	human_genome (FASTA)	SeqFu	42.98	2345068
+Reverse complement sequence	human_genome (FASTA)	SeqKit	7.17	1188148
+Reverse complement sequence	human_genome (FASTA)	SeqKit	7.46	1188548
+Reverse complement sequence	human_genome (FASTA)	SeqKit	7.15	1186100
+Reverse complement sequence	human_genome (FASTA)	SeqKit_j1	13.32	1188604
+Reverse complement sequence	human_genome (FASTA)	SeqKit_j1	13.29	1187460
+Reverse complement sequence	human_genome (FASTA)	SeqKit_j1	13.51	1186948
+Reverse complement sequence	human_genome (FASTA)	SeqKit_old	6.62	788576
+Reverse complement sequence	human_genome (FASTA)	SeqKit_old	6.47	791032
+Reverse complement sequence	human_genome (FASTA)	SeqKit_old	6.43	788820
+Reverse complement sequence	human_genome (FASTA)	Seqtk	4.84	245000
+Reverse complement sequence	human_genome (FASTA)	Seqtk	4.97	246240
+Reverse complement sequence	human_genome (FASTA)	Seqtk	4.94	245668
+Reverse complement sequence	human_genome (FASTA).gz	SeqFu+pigz	181.68	2344616
+Reverse complement sequence	human_genome (FASTA).gz	SeqFu+pigz	181.05	2344976
+Reverse complement sequence	human_genome (FASTA).gz	SeqFu+pigz	180.95	2343820
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit	27.61	1194264
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit	28.08	1194124
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit	27.86	1194388
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit_j1	57.47	1194392
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit_j1	57.16	1194176
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit_j1	57.14	1193896
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit_old	616.57	789380
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit_old	621.01	789796
+Reverse complement sequence	human_genome (FASTA).gz	SeqKit_old	621.18	790024
+Reverse complement sequence	human_genome (FASTA).gz	Seqtk+pigz	139.67	245852
+Reverse complement sequence	human_genome (FASTA).gz	Seqtk+pigz	139.85	245752
+Reverse complement sequence	human_genome (FASTA).gz	Seqtk+pigz	139.53	246312
+Reverse complement sequence	long_reads (FASTQ)	SeqFu	50.74	7676
+Reverse complement sequence	long_reads (FASTQ)	SeqFu	50.94	7444
+Reverse complement sequence	long_reads (FASTQ)	SeqFu	50.71	7708
+Reverse complement sequence	long_reads (FASTQ)	SeqKit	21.32	57132
+Reverse complement sequence	long_reads (FASTQ)	SeqKit	21.26	66724
+Reverse complement sequence	long_reads (FASTQ)	SeqKit	20.61	65664
+Reverse complement sequence	long_reads (FASTQ)	SeqKit_j1	17.98	55384
+Reverse complement sequence	long_reads (FASTQ)	SeqKit_j1	18.05	55216
+Reverse complement sequence	long_reads (FASTQ)	SeqKit_j1	17.91	62840
+Reverse complement sequence	long_reads (FASTQ)	SeqKit_old	23.59	15692
+Reverse complement sequence	long_reads (FASTQ)	SeqKit_old	23.28	13596
+Reverse complement sequence	long_reads (FASTQ)	SeqKit_old	24.69	15824
+Reverse complement sequence	long_reads (FASTQ)	Seqtk	9.65	2420
+Reverse complement sequence	long_reads (FASTQ)	Seqtk	9.36	2352
+Reverse complement sequence	long_reads (FASTQ)	Seqtk	9.41	2472
+Reverse complement sequence	long_reads (FASTQ).gz	SeqFu+pigz	171.93	7788
+Reverse complement sequence	long_reads (FASTQ).gz	SeqFu+pigz	171.91	7620
+Reverse complement sequence	long_reads (FASTQ).gz	SeqFu+pigz	172.12	7692
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit	20.94	100972
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit	21.47	103372
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit	21.47	105120
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit_j1	79.44	81296
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit_j1	80.08	81296
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit_j1	79.96	80924
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit_old	707.42	20604
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit_old	707.42	20748
+Reverse complement sequence	long_reads (FASTQ).gz	SeqKit_old	707.14	20540
+Reverse complement sequence	long_reads (FASTQ).gz	Seqtk+pigz	172.01	2492
+Reverse complement sequence	long_reads (FASTQ).gz	Seqtk+pigz	172.00	2496
+Reverse complement sequence	long_reads (FASTQ).gz	Seqtk+pigz	172.08	2692
+Reverse complement sequence	short_reads (FASTQ)	SeqFu	29.22	2112
+Reverse complement sequence	short_reads (FASTQ)	SeqFu	29.30	1976
+Reverse complement sequence	short_reads (FASTQ)	SeqFu	29.49	1976
+Reverse complement sequence	short_reads (FASTQ)	SeqKit	6.81	33944
+Reverse complement sequence	short_reads (FASTQ)	SeqKit	6.82	30908
+Reverse complement sequence	short_reads (FASTQ)	SeqKit	6.69	21884
+Reverse complement sequence	short_reads (FASTQ)	SeqKit_j1	6.75	34072
+Reverse complement sequence	short_reads (FASTQ)	SeqKit_j1	6.86	32440
+Reverse complement sequence	short_reads (FASTQ)	SeqKit_j1	6.79	30812
+Reverse complement sequence	short_reads (FASTQ)	SeqKit_old	15.90	14768
+Reverse complement sequence	short_reads (FASTQ)	SeqKit_old	16.00	15328
+Reverse complement sequence	short_reads (FASTQ)	SeqKit_old	16.07	13168
+Reverse complement sequence	short_reads (FASTQ)	Seqtk	4.64	1256
+Reverse complement sequence	short_reads (FASTQ)	Seqtk	4.55	1164
+Reverse complement sequence	short_reads (FASTQ)	Seqtk	4.59	1244
+Reverse complement sequence	short_reads (FASTQ).gz	SeqFu+pigz	73.16	3008
+Reverse complement sequence	short_reads (FASTQ).gz	SeqFu+pigz	73.28	3164
+Reverse complement sequence	short_reads (FASTQ).gz	SeqFu+pigz	73.47	2856
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit	10.78	52680
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit	10.80	52368
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit	10.46	51900
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit_j1	39.27	42164
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit_j1	39.04	40164
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit_j1	39.73	41268
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit_old	291.09	20712
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit_old	291.27	19596
+Reverse complement sequence	short_reads (FASTQ).gz	SeqKit_old	290.93	19432
+Reverse complement sequence	short_reads (FASTQ).gz	Seqtk+pigz	73.36	1224
+Reverse complement sequence	short_reads (FASTQ).gz	Seqtk+pigz	73.28	1148
+Reverse complement sequence	short_reads (FASTQ).gz	Seqtk+pigz	73.24	1244

@@ -14,7 +14,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit_old
+    echo == SeqKit_old
     echo data: $f;
 
     memusg -t -H seqkit_old stat $f > $f.seqkit_old.txt ;
@@ -24,7 +24,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit
+    echo == SeqKit
     echo data: $f;
 
     memusg -t -H seqkit stats $f > $f.seqkit.txt ;
@@ -34,7 +34,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit_j1
+    echo == SeqKit_j1
     echo data: $f;
 
     memusg -t -H seqkit stats $f -j 1 > $f.seqkit.txt ;
@@ -44,7 +44,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqtk
+    echo == Seqtk
     echo data: $f;
 
     memusg -t -H seqtk size $f > $f.seqtk.txt ;
@@ -54,7 +54,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqfu
+    echo == SeqFu
     echo data: $f;
 
     memusg -t -H seqfu count $f > $f.seqfu.txt ;
@@ -72,7 +72,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit_old
+    echo == SeqKit_old
     echo data: $f;
 
     memusg -t -H seqkit_old stat $f > $f.seqkit_old.txt ;
@@ -82,7 +82,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit
+    echo == SeqKit
     echo data: $f;
 
     memusg -t -H seqkit stats $f > $f.seqkit.txt ;
@@ -92,7 +92,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit_j1
+    echo == SeqKit_j1
     echo data: $f;
 
     memusg -t -H seqkit stats -j 1 $f > $f.seqkit.txt ;
@@ -102,7 +102,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqtk
+    echo == Seqtk
     echo data: $f;
 
     memusg -t -H seqtk size $f > $f.seqtk.txt ;
@@ -112,7 +112,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqfu
+    echo == SeqFu
     echo data: $f;
 
     memusg -t -H seqfu count $f > $f.seqfu.txt ;

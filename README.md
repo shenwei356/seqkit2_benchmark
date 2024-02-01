@@ -3,8 +3,8 @@
 ## Tools
 
 - [seqtk](https://github.com/lh3/seqtk/), version [v1.4](https://github.com/lh3/seqtk/releases/tag/v1.4).
-- [seqfu](https://github.com/telatin/seqfu2), version [v1.20.0](https://github.com/telatin/seqfu2/releases/tag/v1.20.0).
-- [seqkit](https://github.com/shenwei356/seqkit), version [v2.6.1](https://github.com/shenwei356/seqkit/releases/tag/v2.6.1) and [v0.3.1.1](https://github.com/shenwei356/seqkit/releases/tag/v0.3.1.1).
+- [seqfu](https://github.com/telatin/seqfu2), version [v1.20.3](https://github.com/telatin/seqfu2/releases/tag/v1.20.3).
+- [seqkit](https://github.com/shenwei356/seqkit), version [v2.7.0](https://github.com/shenwei356/seqkit/releases/tag/v2.7.0) and [v0.3.1.1](https://github.com/shenwei356/seqkit/releases/tag/v0.3.1.1).
 
 Notes:
 
@@ -20,14 +20,12 @@ and peak memory usage.
 Datasets:
 
 - Human genome. Human T2T genomes [T2T-CHM13v2.0_genomic](https://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/009/914/755/GCA_009914755.4_T2T-CHM13v2.0/GCA_009914755.4_T2T-CHM13v2.0_genomic.fna.gz).
-- Bacteria genomes. Food associated representative sequences from [proGenomes 3](https://progenomes.embl.de/data/habitats/representatives.food_associated.contigs.fasta.gz). (not used due to results in bacteria genomes and long reads are similar.)
-- ONT reads. Metagenomic reads from a mock community: [ERR5396170](http://ftp.sra.ebi.ac.uk/vol1/fastq/ERR539/000/ERR5396170/ERR5396170.fastq.gz), it is down-sampled for keeping 10 percents reads with `seqkit sample -p 0.1`.
+- ONT reads. Metagenomic reads from a mock community: [ERR5396170](http://ftp.sra.ebi.ac.uk/vol1/fastq/ERR539/000/ERR5396170/ERR5396170.fastq.gz), it is down-sampled for keeping 20 percents reads with `seqkit sample -p 0.2`.
 - Illumina reads. Metagenomic reads from a mock community: [SRR8359173](https://ftp.sra.ebi.ac.uk/vol1/fastq/SRR835/003/SRR8359173/). Pair-end reads are merged.
 
 Summary:
 
     file                       format  type    num_seqs        sum_len  min_len        avg_len      max_len
-    bacteria_genomes.fasta.gz  FASTA   DNA       30,114  2,103,539,345      100       69,852.5    8,545,929
     human_genome.fasta.gz      FASTA   DNA           25  3,117,292,070   16,569  124,691,682.8  248,387,328
     long_reads.fastq.gz        FASTQ   DNA      543,504  1,797,973,978       90        3,308.1      170,525
     short_reads.fastq.gz       FASTQ   DNA   10,038,314  1,254,789,250      125            125          125
@@ -80,11 +78,11 @@ Notes:
     # run the benchmarks
     ./run.pl -n 3 run_benchmark_*.sh --outfile benchmark.tsv
 
-    # not used tests: bacteria_genomes
-    # not used tool: seqfu+gzip and seqtk+gzip
+    # rename dataset
+    # csvtk: https://github.com/shenwei356/csvtk
     cat benchmark.tsv \
-        | csvtk grep -t -f app     -r -v -p gzip \
-        | csvtk grep -t -f dataset -r -v -p bacteria \
+        | csvtk replace -t -f dataset -p '\.(fasta)' -r ' (FASTA)' \
+        | csvtk replace -t -f dataset -p '\.(fastq)' -r ' (FASTQ)' \
         > benchmark.filtered.tsv
 
     # plot

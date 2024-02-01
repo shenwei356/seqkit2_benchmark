@@ -122,7 +122,7 @@ plotit <- function(df2) {
       )
     ) +
     
-    geom_point(size = 3, alpha = 0.7) +
+    geom_point(size = 3.5, alpha = 0.7) +
     
     scale_color_manual(values = colors) +
     facet_grid(filetype ~ test, scales = "free") +
@@ -178,7 +178,7 @@ a <- plotit(df2 %>% filter(test == tests[1]))
 b <- plotit(df2 %>% filter(test == tests[2]))
 c <- plotit(df2 %>% filter(test == tests[3]))
 # create some space to the left of the legend
-legend <- get_legend( c + theme(legend.box.margin = margin(0, 0, 0, -15)))
+legend <- get_legend( c + theme(legend.box.margin = margin(0, 0, 0, -21)))
 
 p <- plot_grid(
   a + theme(
@@ -198,7 +198,7 @@ p <- plot_grid(
   ),
   legend,
   ncol = 4,
-  rel_widths = c(0.9, 0.9, 0.98, 0.6)
+  rel_widths = c(0.88, 0.88, 0.96, 0.65)
 )
 
 if (grepl("tiff?$",

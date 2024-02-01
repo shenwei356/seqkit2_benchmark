@@ -14,7 +14,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit_old
+    echo == SeqKit_old
     echo data: $f;
 
     memusg -t -H seqkit_old seq $f -w 0 > $f.seqkit_old.fx ;
@@ -24,7 +24,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit
+    echo == SeqKit
     echo data: $f;
 
     memusg -t -H seqkit seq $f -w 0 > $f.seqkit.fx ;
@@ -34,7 +34,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit_j1
+    echo == SeqKit_j1
     echo data: $f;
 
     memusg -t -H seqkit seq $f -w 0 -j 1 > $f.seqkit.fx ;
@@ -44,7 +44,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqtk
+    echo == Seqtk
     echo data: $f;
 
     memusg -t -H seqtk seq $f > $f.seqtk.fx ;
@@ -54,7 +54,7 @@ for f in *.fast{a,q}; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqfu
+    echo == SeqFu
     echo data: $f;
 
     memusg -t -H seqfu cat $f > $f.seqfu.fx ;
@@ -72,7 +72,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit_old
+    echo == SeqKit_old
     echo data: $f;
 
     memusg -t -H seqkit_old seq $f -w 0 -o $f.seqkit_old.gz;
@@ -82,7 +82,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit
+    echo == SeqKit
     echo data: $f;
 
     memusg -t -H seqkit seq $f -w 0 -o $f.seqkit.gz --compress-level 6 ;
@@ -92,7 +92,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqkit_j1
+    echo == SeqKit_j1
     echo data: $f;
 
     memusg -t -H seqkit seq $f -w 0 -j 1 -o $f.seqkit.gz --compress-level 6 ;
@@ -102,17 +102,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqtk+gzip
-    echo data: $f;
-
-    memusg -t -H seqtk seq $f | gzip -c > $f.seqtk.gz ;
-
-    /bin/rm $f.seqtk.gz;
-
-
-    echo -en "\n------------------------------------\n";
-
-    echo == seqtk+pigz
+    echo == Seqtk+pigz
     echo data: $f;
 
     memusg -t -H seqtk seq $f | pigz -p 4 -c > $f.seqtk.gz ;
@@ -122,17 +112,7 @@ for f in *.fast{a,q}.gz; do
 
     echo -en "\n------------------------------------\n";
 
-    echo == seqfu+gzip
-    echo data: $f;
-
-    memusg -t -H seqfu cat $f | gzip -c > $f.seqfu.gz ;
-
-    /bin/rm $f.seqfu.gz;
-
-
-    echo -en "\n------------------------------------\n";
-
-    echo == seqfu+pigz
+    echo == SeqFu+pigz
     echo data: $f;
 
     memusg -t -H seqfu cat $f | pigz -p 4 -c > $f.seqfu.gz ;
