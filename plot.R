@@ -102,8 +102,17 @@ df2 <- df %>%
     time_mean = mean(time)
   )
 
-n <- length(unique(df$app))
-colors <- colorblind_pal()(n + 1)[2:(n + 1)] # begin with 2nd color
+# n <- length(unique(df$app))
+# colors0 <- c("#F55951", "grey50", "grey70", "grey90")
+# if (n>7) {
+#   colors <- colorblind_pal()(7 + 1)[2:(7 + 1)] # begin with 2nd color
+#   for (i in seq(1, n-7)) {
+#     colors <- append(colors, colors0[i])
+#   }
+# } else {
+#   colors <- colorblind_pal()(n + 1)[2:(n + 1)] # begin with 2nd color
+# }
+colors <- c("#009E73", "#0072B2", "#56B4E9",  "#F0E442",  "#D55E00", "grey50", "#E69F00", "#F55951", "grey40")
 
 plotit <- function(df2) {
   p <-
@@ -198,7 +207,7 @@ p <- plot_grid(
   ),
   legend,
   ncol = 4,
-  rel_widths = c(0.88, 0.88, 0.96, 0.65)
+  rel_widths = c(0.88, 0.88, 0.96, 0.66)
 )
 
 if (grepl("tiff?$",

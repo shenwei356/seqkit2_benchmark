@@ -60,6 +60,16 @@ for f in *.fast{a,q}; do
     memusg -t -H seqfu count $f > $f.seqfu.txt ;
 
     /bin/rm $f.seqfu.txt;
+
+
+    echo -en "\n------------------------------------\n";
+
+    echo == Bioawk
+    echo data: $f;
+
+    memusg -t -H bioawk -c fastx 'END{print NR}' $f > $f.bioawk.txt ;
+
+    /bin/rm $f.bioawk.txt;
 done
 
 echo Gzip files
@@ -119,4 +129,12 @@ for f in *.fast{a,q}.gz; do
 
     /bin/rm $f.seqfu.txt;
 
+    echo -en "\n------------------------------------\n";
+
+    echo == Bioawk
+    echo data: $f;
+
+    memusg -t -H bioawk -c fastx 'END{print NR}' $f > $f.bioawk.txt ;
+
+    /bin/rm $f.bioawk.txt;
 done

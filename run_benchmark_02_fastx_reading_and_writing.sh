@@ -60,6 +60,21 @@ for f in *.fast{a,q}; do
     memusg -t -H seqfu cat $f > $f.seqfu.fx ;
 
     /bin/rm $f.seqfu.fx;
+
+
+    echo -en "\n------------------------------------\n";
+
+    echo == Bioawk
+    echo data: $f;
+
+    if [[ "$f" = *fasta* ]]; then
+        memusg -t -H bioawk -c fastx '{ print ">"$name"\n"$seq }' $f > $f.bioawk.fx ;
+    else
+        memusg -t -H bioawk -c fastx '{ print ">"$name"\n"$seq"\n+\n"$qual}' $f > $f.bioawk.fx ;
+    fi
+
+    /bin/rm $f.bioawk.fx;
+
 done
 
 echo Gzip files
@@ -118,4 +133,18 @@ for f in *.fast{a,q}.gz; do
     memusg -t -H seqfu cat $f | pigz -p 4 -c > $f.seqfu.gz ;
 
     /bin/rm $f.seqfu.gz;
+
+
+    echo -en "\n------------------------------------\n";
+
+    echo == Bioawk+pigz
+    echo data: $f;
+
+    if [[ "$f" = *fasta* ]]; then
+        memusg -t -H bioawk -c fastx '{ print ">"$name"\n"$seq }' $f | pigz -c > $f.bioawk.fx.gz ;
+    else
+        memusg -t -H bioawk -c fastx '{ print ">"$name"\n"$seq"\n+\n"$qual}' $f  | pigz -c > $f.bioawk.fx.gz ;
+    fi
+
+    /bin/rm $f.bioawk.fx.gz;
 done
