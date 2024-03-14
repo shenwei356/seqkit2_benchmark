@@ -1,0 +1,9 @@
+SeqKit
+SeqKit_j1
+SeqKit_old
+SeqFu
+Seqtk
+Bioawk
+SeqFu+pigz
+Seqtk+pigz
+Bioawk+pigz

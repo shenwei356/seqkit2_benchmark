@@ -1,0 +1,6 @@
+human_genome (FASTA)
+human_genome (FASTA).gz
+long_reads (FASTQ)
+long_reads (FASTQ).gz
+short_reads (FASTQ)
+short_reads (FASTQ).gz
