@@ -208,7 +208,9 @@ p <- plot_grid(
   legend,
   ncol = 4,
   rel_widths = c(0.88, 0.88, 0.96, 0.66)
-)
+) + theme ( # fill the gap in sub figures
+  panel.background = element_rect(fill = "white", colour = NA),
+) 
 
 if (grepl("tiff?$",
           args$outfile,
